@@ -1,0 +1,7 @@
+<div>
+  <ion-item>
+    <ion-input type="text" [(ngModel)]="phoneNumber" placeholder="Enter phone number"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="makeCall()">Call</ion-button>
+  <p>{{ callStatus }}</p>
+</div>
